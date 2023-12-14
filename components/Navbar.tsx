@@ -1,8 +1,8 @@
 'use client'
 import Link from 'next/link';
 import Image from 'next/image'
-import logo from '@/icon/logo.jpg'
-import oggle from "@/icon/toggle.png"
+import logo from '@/public/logo.jpg'
+import oggle from "@/public/toggle.png"
 import { usePathname, useRouter } from 'next/navigation';
 import { useState,} from 'react';
 const routes = [
